@@ -1,0 +1,9 @@
+taj.jpg: sigma=2.0, alpha=2, max |two-step - single convolution| = 2.22e-15
+colosseum.jpg: sigma=2.0, alpha=1, max |two-step - single convolution| = 1.33e-15
+space_needle.jpg: sigma=2.0, alpha=1, max |two-step - single convolution| = 1.22e-15
+
+Evaluation on space_needle.jpg: blur sigma=2.0, sharpen sigma=2.0
+  PSNR(blurred, original)       = 20.45 dB
+  PSNR(resharpened α=1, original) = 21.19 dB
+  PSNR(resharpened α=2, original) = 21.58 dB
+  PSNR(resharpened α=4, original) = 21.34 dB

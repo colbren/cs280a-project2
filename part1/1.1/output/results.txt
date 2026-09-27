@@ -1,0 +1,18 @@
+Correctness check vs scipy.signal.convolve2d (random 25x31 image)
+max |ours - scipy|:
+  mode=same filter=box  four-loop: 5.55e-16  two-loop: 3.33e-16
+  mode=same filter=Dx   four-loop: 0.00e+00  two-loop: 0.00e+00
+  mode=same filter=Dy   four-loop: 0.00e+00  two-loop: 0.00e+00
+  mode=full filter=box  four-loop: 5.55e-16  two-loop: 3.33e-16
+  mode=full filter=Dx   four-loop: 0.00e+00  two-loop: 0.00e+00
+  mode=full filter=Dy   four-loop: 0.00e+00  two-loop: 0.00e+00
+
+Portrait (grayscale, downsampled 6x) size: 289x514
+
+Timings on portrait, mode='same' (seconds) and max |diff| vs scipy:
+  filter  four-loop   two-loop      scipy   max diff
+  box        1.5832     0.2522     0.0113   1.11e-15
+  Dx         0.0532     0.2261     0.0007   0.00e+00
+  Dy         0.0591     0.2223     0.0010   0.00e+00
+
+'full' padding with 9x9 box: output 297x522 (input 289x514; +8 in each dimension)

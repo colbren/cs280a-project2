@@ -1,0 +1,11 @@
+Gaussian: sigma = 2.0, kernel = 13x13
+DoG_x shape (13, 14), DoG_y shape (14, 13)
+Finite-difference magnitude max: 0.8655 (threshold 0.25)
+Blurred magnitude max: 0.1552 (threshold 0.05)
+Edge pixels: finite diff 2.40%, blur+diff 7.21%, DoG 7.21%
+
+Verification (blur-then-diff vs single DoG convolution):
+  max |mag_a - mag_b| over whole image (symm boundary): 9.34e-16
+  max |mag_a - mag_b| ignoring a 13px border:          9.34e-16
+  max diff with zero padding + 'full' convolution:       1.09e-15
+  edge pixels that disagree:                              0.0000%

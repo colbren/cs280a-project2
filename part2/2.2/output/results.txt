@@ -1,0 +1,14 @@
+nutmeg_derek: Nutmeg up close, Derek from far away
+  high-frequency image: nutmeg.jpg (sigma_high = 5)
+  low-frequency image:  DerekPicture.jpg (sigma_low = 10)
+  aligned size: 719x575
+happy_mad_baby: Change of expression: laughing baby up close, grumpy baby from far away
+  high-frequency image: happy_baby_hybrid.jpg (sigma_high = 3)
+  low-frequency image:  mad_baby_hybrid.jpg (sigma_low = 6)
+  aligned size: 459x342
+bicycle_motorcycle: Morph between objects: bicycle up close, motorcycle from far away
+  high-frequency image: bicycle_hybrid.png (sigma_high = 4)
+  low-frequency image:  motorcycle_hybrid.png (sigma_low = 10)
+  aligned size: 1070x887
+
+Favorite (for the frequency analysis on the website): happy_mad_baby

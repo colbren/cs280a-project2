@@ -1,0 +1,3 @@
+Stacks: 6 levels, sigma_i = 2.0 * 2^i applied between levels
+Laplacian level 5 is the final Gaussian level (low-pass residual)
+Laplacian bands are contrast-stretched (0.5-99.5 percentile) for display

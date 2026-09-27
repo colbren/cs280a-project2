@@ -1,0 +1,5 @@
+oraple: The oraple: apple (left) + orange (right), vertical seam  (levels=6, sigma0=2.0, size 300x300)
+lemon_lime: Lemon (top) + lime (bottom), horizontal seam  (levels=6, sigma0=2.0, size 500x400)
+clock_baseball: Clock blended into a baseball (irregular mask)  (levels=5, sigma0=1.0, size 626x418)
+
+Favorite (for the Laplacian stack illustration on the website): clock_baseball
